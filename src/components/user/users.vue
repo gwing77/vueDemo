@@ -108,7 +108,7 @@
       </el-form>
       <!-- 底部按钮区域 -->
       <span slot="footer" class="dialog-footer">
-        <el-button @click="editDialogVisible = false">取 消</el-button>
+        <el-button @click="addDialogVisible = false">取 消</el-button>
         <el-button type="primary" @click="addUser">确 定</el-button>
       </span>
     </el-dialog>
@@ -130,7 +130,7 @@
       </el-form>
       <!-- 底部按钮区域 -->
       <span slot="footer" class="dialog-footer">
-        <el-button @click="editFormDialogVisible = false">取 消</el-button>
+        <el-button @click="editDialogVisible = false">取 消</el-button>
         <el-button type="primary" @click="editUser">确 定</el-button>
       </span>
     </el-dialog>
